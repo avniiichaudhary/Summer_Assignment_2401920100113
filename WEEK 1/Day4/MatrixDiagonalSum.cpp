@@ -2,7 +2,7 @@ class Solution {
 public:
     int diagonalSum(vector<vector<int>>& mat) {
         int n = mat.size();
-        int totalSum = 0;
+        int totalSum = 0; 
         
         for (int i = 0; i < n; ++i) {
             totalSum += mat[i][i]; // Primary diagonal
