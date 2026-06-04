@@ -7,7 +7,7 @@ public:
             mpp[it]++;
         }
 
-        for (auto it : mpp) {
+        for (auto it  : mpp) {
             if (it.second > 1) {
                 return true;
             }
